@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>
+
+</head>
+
+<body style="background-color: #e9e1e1;">
+
+    <header>
+
+        <h1 style="color: #eb97c3;">Mariana Gameiro - Desenvolvedora Web</h1>
+
+        <nav>
+            <ul>
+                <strong><li><a style="color: #000000;" href="#sobre">Sobre mim</a></li></strong>
+                <strong><li><a style="color: #000000;" href="#projetos">Projetos</a></li></strong>
+                <strong><li><a style="color: #000000;" href="#contato">Contato</a></li></strong>
+            </ul>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section id="sobre">
+
+            <h1 style="color: #eb97c3;">Sobre Mim</h1>
+
+            <img src="assets/1000224159.jpeg" width="160" height="200">
+
+            <p style="color: #000000;">
+                Sou estudante de <strong>desenvolvimento web</strong>, apaixonada por tecnologia e inovação.
+                Tenho experiência em HTML, CSS e JavaScript, e estou sempre buscando novas habilidades
+                para aprimorar meus projetos.
+            </p>
+
+            <h1 style="color: #eb97c3;">Minhas Habilidades</h1>
+
+            <ul>
+                <strong><li>HTML</li></strong>
+                <strong><li>CSS</li></strong>
+                <strong><li>JavaScript</li></strong>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <section id="projetos">
+
+            <h1 style="color: #eb97c3;">Projetos</h1>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Loja de Games Retro</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a style="color: #000000;" href="https://github.com/MarianaGameiro113/-Mini-Desafio-HTML---Loja-de-Games-Retro" target="_blank">
+                                Ver projeto
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Verificador de Maioridade</td>
+                        <td>HTML, CSS, PHP</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a style="color: #000000;" href="https://github.com/MarianaGameiro113/Atividade-3-Desafio-Verificador-de-Maioridade-" target="_blank">
+                                Ver projeto
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Projeto Filme</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a style="color: #000000;" href="https://github.com/MarianaGameiro113/projeto-filme" target="_blank">
+                                Ver projeto
+                            </a>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <section id="contato">
+
+            <h1 style="color: #eb97c3;">Entre em Contato</h1>
+
+            <form action="processar.php" method="POST">
+
+                <fieldset>
+
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+
+                    <select id="assunto" name="assunto">
+                        <option value="duvida">Oportunidade de Trabalho</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="reclamacao">Reclamação</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+
+                    <br><br>
+
+                    <input type="submit" value="Enviar Mensagem">
+                    <input type="reset" value="Limpar">
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>&copy; 2026 Mariana Gameiro. Desenvolvido durante o curso do SENAI.</p>
+
+        <p>
+            <a style="color: #eb97c3;" href="mailto:marianagameiro@outlook.com">marianagameiro@outlook.com</a> |
+            <a style="color: #eb97c3;" href="tel:+5511972626621">(11) 97262-6621</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
